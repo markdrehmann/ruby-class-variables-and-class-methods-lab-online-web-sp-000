@@ -25,9 +25,9 @@ class Song
   end
 
   def self.genre_count
-    array = {}
+    hash = {}
     @@genres.each do |genre|
-      array << genre
+      hash[genre] = 1
     end
   end
 
