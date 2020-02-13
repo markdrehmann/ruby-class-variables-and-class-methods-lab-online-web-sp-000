@@ -25,8 +25,9 @@ class Song
   end
 
   def self.genre_count
+    array = {}
     @@genres.each do |genre|
-      genre
+      array << genre
     end
   end
 
